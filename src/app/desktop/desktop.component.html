@@ -1,7 +1,16 @@
-<p>desktop works!</p>
+<mat-toolbar color="primary">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>物联大师</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button>
+    <mat-icon>person</mat-icon>
+  </button>
+</mat-toolbar>
 
 <mat-grid-list [cols]="cols" rowHeight="1:1.2">
-  <mat-grid-tile *ngFor="let entry of entries" class="app">
+  <mat-grid-tile *ngFor="let entry of entries" class="app" matRipple>
     <div class="icon">
       <img [src]="entry.icon" alt="">
     </div>
