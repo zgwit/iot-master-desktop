@@ -1,1 +1,11 @@
 <p>desktop works!</p>
+
+<mat-grid-list [cols]="cols" rowHeight="1:1.2">
+  <mat-grid-tile *ngFor="let entry of entries" class="app">
+    <div class="icon">
+      <img [src]="entry.icon" alt="">
+    </div>
+    <mat-grid-tile-footer>{{entry.name}}</mat-grid-tile-footer>
+  </mat-grid-tile>
+  <!--  todo 插件应用 -->
+</mat-grid-list>

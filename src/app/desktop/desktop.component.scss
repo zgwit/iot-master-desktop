@@ -1,0 +1,14 @@
+
+.app {
+  background: #5EB5FC;
+  user-select: none;
+  cursor: pointer;
+
+  .icon {
+    padding: 10%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
