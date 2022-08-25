@@ -22,4 +22,4 @@ import { ServerDetailComponent } from './server-detail/server-detail.component';
     CommonModule
   ]
 })
-export class ConnectorModule { }
+export class LinkModule { }

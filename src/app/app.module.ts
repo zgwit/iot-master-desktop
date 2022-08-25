@@ -11,6 +11,9 @@ import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {LoginComponent} from './login/login.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {OverlayModule} from "@angular/cdk/overlay";
 
 
 @NgModule({
@@ -26,6 +29,9 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    MatButtonModule,
+    MatIconModule,
+    OverlayModule,
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'zh'},
